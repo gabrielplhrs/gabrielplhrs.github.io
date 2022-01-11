@@ -1,0 +1,55 @@
+/* 
+cores: azul: #008F11
+preto e branco
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Readex+Pro:wght@500&family=Roboto:wght@100;300;700&display=swap');  
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#firstSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#firstSection h1 {
+    font-size: 36px;
+    padding-bottom: 28px;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+#firstSection h3 {
+    font-size: 20px;
+    padding-bottom: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#firstSection img {
+    width: 100px;
+    padding-bottom: 28px;
+}
+
+#secondSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #007acc;
+    color: #fff;
+}
+
+#secondSection h2 {
+    font-size: 36px;
+    padding-top: 28px;
+}
+
+#secondSection p {
+    padding: 28px 200px 28px 200px;
+}

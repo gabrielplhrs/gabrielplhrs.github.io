@@ -1,0 +1,29 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px 100px 70px 100px;
+}
+
+#icone-inicial {
+    width: 60px;
+}
+
+#botaoContato {
+    color: #007acc;
+    border: solid #007acc 2px;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+#botaoContato:hover {
+    background: #007acc;
+    color: #fff;
+}
+
+header h3 {
+    margin: 0px;
+}
