@@ -1,8 +1,3 @@
-/* 
-cores: azul: #008F11
-preto e branco
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Readex+Pro:wght@500&family=Roboto:wght@100;300;700&display=swap');  
 
 *{
@@ -25,6 +20,11 @@ preto e branco
     font-family: 'Readex Pro', sans-serif;
 }
 
+#firstSection h1:hover {
+    color: #007acc;
+    cursor: default;
+}
+
 #firstSection h3 {
     font-size: 20px;
     padding-bottom: 28px;
@@ -32,8 +32,10 @@ preto e branco
 }
 
 #firstSection img {
-    width: 100px;
-    padding-bottom: 28px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    padding-bottom: 40px;
 }
 
 #secondSection {
@@ -46,10 +48,179 @@ preto e branco
 }
 
 #secondSection h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 36px;
-    padding-top: 28px;
+    padding: 80px 120px 20px 120px;
 }
 
 #secondSection p {
-    padding: 28px 200px 28px 200px;
+    padding: 28px 240px 90px 240px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#thirdSection {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #007acc;
+}
+
+#stacksSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: solid 1px rgba(61, 61, 61, 0.234);
+    border-radius: 16px;
+    margin-bottom: 100px;
+    background: #fff;
+}
+
+.stack:hover {
+    color: #007acc;
+    cursor: default;
+}
+
+#stacksSection p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#stacksSection h3 {
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#stacksSection h2 {
+    font-size: 34px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#stacksSection img {
+    width: 72px;
+    padding-top: 20px;
+}
+
+.stackSection {
+    margin:24px;
+    margin-top: 5px;
+}
+
+#frontendSection, #backendSection, #student {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.vertical-line{
+    width: 1px; /* Line width */
+    background-color: rgba(0, 0, 0, 0.302); /* Line color */
+    height: 100%; /* Override in-line if you want specific height. */
+    float: left; /* Causes the line to float to left of content. 
+      You can instead use position:absolute or display:inline-block
+      if this fits better with your design */
+}
+
+#fourthSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+    padding-top: 75px;
+}
+
+#tituloFourthSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tituloFourthSection h1 {
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+#tituloFourthSection h3 {
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.projetos {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 260px;
+    height: 160px;
+    margin: 10px;
+}
+
+.projetosDiv {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    /* visibility: hidden; */
+}
+
+.projetosDiv:hover {
+    /* visibility: visible; */
+}
+
+.botaoRepositorio {
+    color: #007acc;
+    border: solid #007acc 2px;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    transition: 0.4s;
+    background: none;
+    cursor: pointer;
+}
+
+.botaoRepositorio:hover {
+    background: #007acc;
+    color: #fff;
+}
+
+#botaoGitHub {
+    margin-top: 20px;
+    color: #007acc;
+    border: solid #007acc 2px;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px;
+    width: 200px;
+    transition: 0.4s;
+    background: none;
+    cursor: pointer;
+}
+
+#botaoGitHub:hover {
+    background: #007acc;
+    color: #fff;
+}
+
+#firstProject {
+    background-image: url("../img/thumb-1920-265693.png");
+    background-size: cover;
 }

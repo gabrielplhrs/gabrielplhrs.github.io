@@ -8,6 +8,7 @@
 
 #icone-inicial {
     width: 60px;
+    filter: invert(28%) sepia(99%) saturate(1195%) hue-rotate(181deg) brightness(102%) contrast(101%);
 }
 
 #botaoContato {
@@ -16,7 +17,7 @@
     border-radius: 25px;
     text-decoration: none;
     padding: 10px;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 #botaoContato:hover {
