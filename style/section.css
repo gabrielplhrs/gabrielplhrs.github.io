@@ -34,6 +34,8 @@
 #firstSection img {
     width: 400px;
     height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     border-radius: 50%;
     padding-bottom: 40px;
 }
@@ -165,7 +167,7 @@ div.vertical-line{
 }
 
 .projetos {
-    border: 1px solid black;
+    border: 1px solid rgba(61, 61, 61, 0.234);
     border-radius: 10px;
     width: 260px;
     height: 160px;
@@ -178,11 +180,10 @@ div.vertical-line{
     align-items: center;
     flex-direction: column;
     padding: 20px;
-    /* visibility: hidden; */
 }
 
 .projetosDiv:hover {
-    /* visibility: visible; */
+    
 }
 
 .botaoRepositorio {
@@ -213,6 +214,8 @@ div.vertical-line{
     transition: 0.4s;
     background: none;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 #botaoGitHub:hover {
@@ -224,3 +227,30 @@ div.vertical-line{
     background-image: url("../img/thumb-1920-265693.png");
     background-size: cover;
 }
+
+#fifthSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#fifthSection h1 {
+    font-size: 32px;
+}
+
+.imgEmpresas {
+    margin: 20px;
+    margin-top: 40px;
+    padding: 72px;
+    border: 1px solid rgba(61, 61, 61, 0.234);
+    border-radius: 12px;
+}
+
+.imgRedesSociais {
+    width: 32px;
+    margin: 6px;
+    filter: invert(0%) sepia(93%) saturate(0%) hue-rotate(234deg) brightness(96%) contrast(107%);
+}
+

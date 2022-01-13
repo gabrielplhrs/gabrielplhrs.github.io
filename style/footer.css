@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #007acc;
+}
+
+#footerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #007acc;
+}
+
+#footerContent {
+    padding: 80px;
+}
+
+#redesSociais {
+    padding: 20px;
+}
