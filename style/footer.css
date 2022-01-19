@@ -21,3 +21,11 @@ footer {
 #redesSociais {
     padding: 20px;
 }
+
+footer img {
+    color: black;
+}
+
+footer img:hover {
+    filter: invert(100%) sepia(0%) saturate(7463%) hue-rotate(42deg) brightness(99%) contrast(113%);
+}

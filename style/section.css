@@ -35,9 +35,9 @@
     width: 400px;
     height: 400px;
     margin-top: 50px;
-    margin-bottom: 50px;
     border-radius: 50%;
-    padding-bottom: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 #secondSection {
