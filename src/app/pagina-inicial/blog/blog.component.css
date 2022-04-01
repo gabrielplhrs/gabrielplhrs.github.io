@@ -1,0 +1,27 @@
+#blogDiv h2 {
+    padding: 8vh;
+}
+
+#blogPostDiv {
+    display: flex;
+    align-items: center;
+    margin: 6vh;
+}
+
+.blogPost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--cor-fonte);
+    border-radius: 4px;
+    height: 20vh;
+    width: 20vw;
+    margin: 2vw;
+    transition: 0.4s;
+}
+
+.blogPost:hover {
+    cursor: pointer;
+    border-color: var(--cor-quartenaria);
+}

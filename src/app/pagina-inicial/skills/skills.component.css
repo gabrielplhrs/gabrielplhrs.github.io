@@ -1,0 +1,43 @@
+#stacksDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#skillsDiv h2 {
+    padding: 8vh;
+}
+
+.stacks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.stacksTop {
+    padding-top: 8vh;
+}
+
+.stacksBottom {
+    padding-bottom: 8vh;
+}
+
+.stackSvg {
+    width: 62px;
+    margin-top: 12px;
+}
+
+#awsSvg {
+    margin-top: 30%;
+}
+
+.borderStackSvg {
+    background: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 84px;
+    width: 84px;
+    margin: 4px;
+}

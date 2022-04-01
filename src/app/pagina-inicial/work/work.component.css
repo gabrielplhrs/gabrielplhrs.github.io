@@ -1,0 +1,28 @@
+
+#workDiv h2 {
+    padding: 8vh;
+}
+
+.projectsDiv {
+    display: flex;
+    align-items: center;
+    margin: 6vh;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--cor-fonte);
+    border-radius: 4px;
+    height: 20vh;
+    width: 20vw;
+    margin: 2vw;
+    transition: 0.4s;
+}
+
+.projects:hover {
+    cursor: pointer;
+    border-color: var(--cor-quartenaria);
+}

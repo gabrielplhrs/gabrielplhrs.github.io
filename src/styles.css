@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Montserrat:wght@500;800&family=Open+Sans:wght@500&family=Readex+Pro:wght@500&family=Roboto:wght@500&display=swap');
+
+:root {
+    --cor-principal: #202020;
+    --cor-secundaria: #121212;
+    --cor-terciaria: #101010;
+    --cor-quartenaria: #3178C6;
+    --cor-fonte: white;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-fonte);
+}
+
+p {
+    width: 60vw;
+}
+
+#profileDiv, #aboutDiv, #workDiv, #skillsDiv, #blogDiv, #contactDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+    text-align: center;
+}
+
+.assetsCategories {
+    height: 20vh;
+    padding-top: 4vh;
+}
+
+.hl {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.179);
+    width: 99vw;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
